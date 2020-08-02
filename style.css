@@ -204,3 +204,18 @@ body
     background: linear-gradient(to top, #008aff, #00ffe7);
     filter: blur(30px);
 }
+
+.jumbotron {
+    text-align: left;
+    background-image: url('img/evolution.png');
+    margin-right: 3em;
+    background-position: right;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 14em; /* Resize the background image to cover the entire container */
+    
+}
+
+.container p
+{
+    margin: 135px;
+}
