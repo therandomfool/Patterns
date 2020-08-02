@@ -208,7 +208,7 @@ body
 .jumbotron {
     text-align: left;
     background-image: url('img/evolution.png');
-    margin-right: 3em;
+
     background-position: right;
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: 14em; /* Resize the background image to cover the entire container */
@@ -219,3 +219,4 @@ body
 {
     margin: 135px;
 }
+
