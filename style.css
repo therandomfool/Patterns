@@ -5,13 +5,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #fff;
+    
 }
 
 body 
 {
     min-height: 100vh;
-    background: #150019;
+    background: ghostwhite;
 
 }
 
@@ -48,7 +48,7 @@ body
 
 .navigation ul li:hover
 {
-    background: #ea1d63;
+    background: #37BC12;
 }
 
 
@@ -102,7 +102,7 @@ body
 
 .toggle.active
 {
-    background: #ea1d6e;
+    background: #37BC12;
 }
 
 .toggle:before
