@@ -220,3 +220,16 @@ body
     margin: 135px;
 }
 
+.logo
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-left: 1.9em;
+    width: 199px;
+    height: 199px;
+   
+}
+
+
+
