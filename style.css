@@ -205,19 +205,13 @@ body
     filter: blur(30px);
 }
 
-.jumbotron {
-    text-align: left;
-    background-image: url('img/evolution.png');
-
-    background-position: right;
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: 14em; /* Resize the background image to cover the entire container */
-    
+header {
+    text-align: center; 
 }
 
 .container p
 {
-    margin: 135px;
+    margin: 105px;
 }
 
 .logo
@@ -229,6 +223,32 @@ body
     width: 199px;
     height: 199px;
    
+}
+
+.image1
+{
+    height: 190px;
+    width: 250px;
+    border: 3px solid black;
+    /* shape-outside: url(img/evolution.png); */
+    shape-image-threshold: 0.5;
+    float: right;
+    padding: 15px;
+    
+}
+
+.image2
+{
+    height: 220px;
+    width: 250px;
+    border-radius: 50%;
+    
+    shape-outside: url(img/Software\ Design\ Patterns-logos_black.png);
+  
+    shape-image-threshold: 0.5;
+    float: left;
+    /* padding: 15px; */
+    
 }
 
 
