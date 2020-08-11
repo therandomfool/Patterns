@@ -24,13 +24,13 @@
                 <span><img src="img/Software Design Patterns-logos_transparent.png" alt=""></span>    
             </li> -->
             <li>
-                <a href="#">
+                <a href="index.html">
                     <span class = 'icon'><i class="fi-hwsuxl-question-mark"></i></span>
                     <span class = 'title'>Home</span>
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="singleton.html">
                     <span class = 'icon'><i class="fi-cnsuxl-user-tie-circle"></i></span>
                     <span class = 'title'>Singleton</span>
                 </a>
@@ -66,7 +66,7 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="state.html">
                     <span class = 'icon'><i class="fi-xwluxl-flag-wide"></i></span>
                     <span class = 'title'>State</span>
                 </a>
@@ -117,18 +117,45 @@
         <ol>
             <li class = 'mb-2'>Creational Design Patterns</li>
             Creational patterns emphasize the automatic creation of objects within code, rather than requiring you to instantiate objects directly. In most cases, this means that a function or method can call the code necessary to instantiate new objects on your behalf, so you only need to explicitly modify that object creation when it is necessary, and allow default behaviors to take over otherwise.
-                <ul class = 'mt-3 ml-5'>
-                    <li>Singleton</li>
+                <ul class = 'mt-1 ml-5'>
+                    <b>Use case of creational design pattern:</b>  
+                    <li>Suppose a developer wants to create a simple DBConnection class to connect to a database and wants to access the database at multiple locations from code, generally what developer will do is create an instance of DBConnection class and use it for doing database operations wherever required. Which results in creating multiple connections from the database as each instance of DBConnection class will have a separate connection to the database. In order to deal with it, we create DBConnection class as a singleton class, so that only one instance of DBConnection is created and a single connection is established. Because we can manage DB Connection via one instance so we can control load balance, unnecessary connections, etc.</li>
+                    <li>Suppose you want to create multiple instances of similar kind and want to achieve loose coupling then you can go for Factory pattern. A class implementing factory design pattern works as a bridge between multiple classes. Consider an example of using multiple database servers like SQL Server and Oracle. If you are developing an application using SQL Server database as back end, but in future need to change database to oracle, you will need to modify all your code, so as factory design patterns maintain loose coupling and easy implementation we should go for factory for achieving loose coupling and creation of similar kind of object.</li>
+                </ul>
+                <ul class = 'mt-1 ml-5'>
+                    <li><b>Singleton</b></li>
                     <li>Factory</li>
-                    <li>Factory Method</li>
+                    <li><b>Factory Method</b></li>
                     <li>Abstract Factory</li>
-                    <li>Builder</li>
+                    <li><b>Builder</b></li>
                     <li>Prototype</li>
                     <li>Object Pool</li>
                 </ul>   
             
-            <li>Behavioral Design Patterns</li>
-            <li>Structural Design Patterns</li>
+            <li class='mt-3'>Behavioral Design Patterns</li>
+            Behavioral patterns are concerned with communication and assignment between objects.
+                <ul class = 'mt-1 ml-5'>
+                    <li>Chain of Responsibility</li>
+                    <li>Command</li>
+                    <li>Interpreter</li>
+                    <li>Iterator</li>
+                    <li>Mediator</li>
+                    <li>Observer</li>
+                    <li>Strategy</li>
+                    <li>Template Method</li>
+                    <li>Visitor</li>
+                    <li>Null Object</li>
+                </ul>
+            <li class='mt-3'>Structural Design Patterns</li>
+            <ul class = 'mt-1 ml-5'>
+                <li>Adapter</li>
+                <li>Bridge</li>
+                <li>Composite</li>
+                <li>Decorator</li>
+                <li>Flyweight</li>
+                <li>Memento</li>
+                <li>Proxy</li>
+            </ul>
         </ol>
             
             
